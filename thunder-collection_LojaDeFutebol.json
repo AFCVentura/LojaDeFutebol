@@ -1,0 +1,319 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "LojaDeFutebol",
+    "collectionId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+    "dateExported": "2024-05-10T00:19:09.660Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6b3114c0-c57d-4261-bd6c-86cfc302481c",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clube",
+            "url": "http://localhost:8080/clube",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-09T23:51:00.249Z",
+            "modified": "2024-05-09T23:51:00.249Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Brooklyn\",\n  \"pais\": \"USA\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "71ff99d6-3e06-40ca-96ac-2aef1d7798bf",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clube",
+            "url": "http://localhost:8080/clube",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-09T23:55:31.179Z",
+            "modified": "2024-05-09T23:55:31.179Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Brooklyn\",\n  \"pais\": \"USA\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1088b94d-2dd3-4a8c-9df2-beb1028ec823",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clube",
+            "url": "http://localhost:8080/clube",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-09T23:56:27.922Z",
+            "modified": "2024-05-10T00:09:24.287Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9978ca87-3a47-4576-9eef-dde5e4203b54",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clube",
+            "url": "http://localhost:8080/clube",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-09T23:57:55.155Z",
+            "modified": "2024-05-10T00:02:19.128Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "03a614ab-9c45-40d5-94b5-cc1a6c390b9c",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/item",
+            "url": "http://localhost:8080/item",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-10T00:04:31.286Z",
+            "modified": "2024-05-10T00:04:31.286Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 2,\n  \"marca\": \"nike\",\n  \"tamanho\" : 10.5,\n  \"cor\" : \"azul\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "42c3b5af-e5f0-4a09-bad3-0a4fde9f42d0",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/item",
+            "url": "http://localhost:8080/item",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-10T00:05:08.807Z",
+            "modified": "2024-05-10T00:05:08.807Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 2,\n  \"marca\": \"nike\",\n  \"tamanho\" : 10.5,\n  \"cor\" : \"azul\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "52ea9362-f576-40bf-a4de-e19b34ec1a4a",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/item",
+            "url": "http://localhost:8080/item",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-05-10T00:06:11.456Z",
+            "modified": "2024-05-10T00:06:11.456Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 3\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "796be5d0-c18f-4245-801d-d4dea77fc674",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/item",
+            "url": "http://localhost:8080/item/findById",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-05-10T00:06:53.646Z",
+            "modified": "2024-05-10T00:06:53.646Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 4\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4d89f4e1-d8f3-4344-a2a9-6e99db2036bb",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clientes",
+            "url": "http://localhost:8080/clientes",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-05-10T00:10:11.047Z",
+            "modified": "2024-05-10T00:10:11.047Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 4,\n  \"nome\" : \"cristian\",\n  \"endereco\" : \"bela vista\",\n  \"cpf\" : 888888888,\n  \"clube\" : 4\n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7cc22ff5-c6e0-4eda-bd57-11d68be14553",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clientes",
+            "url": "http://localhost:8080/clientes",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-05-10T00:11:11.808Z",
+            "modified": "2024-05-10T00:11:11.808Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 4,\n  \"nome\" : \"cristian\",\n  \"endereco\" : \"bela vista\",\n  \"cpf\" : 888888888,\n  \"clube\" : 4\n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "49afc3a6-d8bd-45e9-976d-d0572451f9b0",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/clientes",
+            "url": "http://localhost:8080/clientes",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2024-05-10T00:13:45.819Z",
+            "modified": "2024-05-10T00:14:13.784Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 3\n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "71bf14b7-5ff4-46d6-b8e9-616e8cf154f5",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/compras",
+            "url": "http://localhost:8080/compra",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-05-10T00:14:55.130Z",
+            "modified": "2024-05-10T00:17:05.776Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 4,\n  \"cliente\" : 2,\n  \"item\" : 4\n  \n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "069058ed-1dbf-4294-9323-c2d912dd47c0",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/compras",
+            "url": "http://localhost:8080/compra",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-05-10T00:17:12.690Z",
+            "modified": "2024-05-10T00:17:21.649Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 4,\n  \"cliente\" : 2,\n  \"item\" : 4\n  \n\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ca3e7a0b-0ea7-4d43-8eca-66b8fb2b9c65",
+            "colId": "4cc8fc4b-3095-42ac-8293-97899c758328",
+            "containerId": "",
+            "name": "http://localhost:8080/compras",
+            "url": "http://localhost:8080/compra",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2024-05-10T00:17:52.283Z",
+            "modified": "2024-05-10T00:18:33.521Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 1\n  \n  \n\n  \n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "MzvzOlp0BUU63AqdAJzV2YXf6cUvK7w1HOIhCiRi9XYmbELFadLW8cxWfUFVO5GK1P-z75hVaTCIetpKRy2MYA"
+}
